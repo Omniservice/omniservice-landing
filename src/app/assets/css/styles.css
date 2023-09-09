@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Sora";
+    src: local("Sora"),
+      url("../fonts/Sora/Sora-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Sora-Bold";
+    src: local("Sora-Bold"),
+      url("../fonts/Sora/Sora-Bold.ttf") format("truetype");
+  }
+
+  /* Global Classes */
+.sora-regular{
+    font-family: Sora;
+}
+.sign-up-link {
+    font-weight: 600;
+}
+.main-nav{
+    margin-bottom: 20px;
+}
+.regular-flex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* Landing style */
+.bg-landing-section-a {
+    --tw-bg-opacity: 1;
+    background-color: rgb(251 251 251 / var(--tw-bg-opacity));
+}
+.main-container-section {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.content-inner-section {
+    padding: 80px 20px;
+}
+.inner-content{
+    width: 49%;
+}
+.section-img {
+    width: 100%;
+    height: 100%;
+}
+.section-heading {
+    color: #000;
+    font-family: Sora;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+}
+.section-heading-p2 {
+    background: linear-gradient(97deg, #1EC1E4 18.87%, #7D55E5 87.25%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Sora;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+}
+.section-text {
+    color: #000;
+    font-family: 'Sora';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.text-right{
+    text-align: right;
+}
+.text-42{
+    font-size: 42px !important;
+}
+/* Auth screens */
+.content-wrapper{
+    background-image: url('../images/omniservice-auth-bg.png');
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .auth-logo{
+    width: 70%;
+  }
+  .main-content-wrapper {
+    display: flex;
+  }
+  .auth-left-content-wrapper {
+    width: 50%;
+    text-align: center;
+  }
+  .auth-right-content-wrapper {
+    width: 90%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 0.25rem 1rem 0 rgb(47 91 234 / 13%);
+  }
+  .submit-btn {
+    background-color: #2f95dc;
+  }
+  .submit-btn:focus {
+    background-color: #2f95dc;
+  }
+  .submit-btn:hover {
+    background-color: #2f95dc;
+  }
+  .not-a-menber {
+    color: #A1A5B7;
+    text-align: center;
+  }
+  .forgot-password{
+    text-align: right;
+  }
+  .scroll-section {
+    height: 80vh;
+    overflow-y: scroll;
+  }
+  .h-100vh {
+    height: 100vh;
+}
+
+
+
+/*display mobile when the browser window is 991px width or less*/
+@media only screen and (max-width: 1200px){
+    .main-container-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .inner-content {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+}
