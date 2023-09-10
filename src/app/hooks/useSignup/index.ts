@@ -14,7 +14,7 @@ const useAuth = () => {
     try {
       setLoading();
       const response: SignUpResponse = await httpPost("/user/register", data);
-      successAlert(response.message);
+      successAlert(response.message + ", We will be in touch real soon");
       setSuccess();
       return true;
       // eslint-disable-next-line @typescript-eslint/no-explicit-any

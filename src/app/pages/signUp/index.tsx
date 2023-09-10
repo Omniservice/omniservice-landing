@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
@@ -15,7 +15,9 @@ function SignUp() {
   const [email, setEmail] = useState<string>("");
   const [password, setPassord] = useState<string>("");
   const [confirmPassword, setConfirmPassword] = useState<string>("");
-
+  useEffect(() => {
+    document.title = "Sign Up";
+  }, []);
 
   const handleSignUpSubmit = async () => {
     if (businessName === "") {
@@ -45,7 +47,7 @@ function SignUp() {
       ConfirmPassword: confirmPassword,
     };
     const res = await signUp(data);
-    if (res) navigate("/login");
+    if (res) navigate("/");
   };
   return (
     <div className="col-md-12 content-wrapper h-100vh">
