@@ -539,6 +539,7 @@ ul {
 .chat-rows{
   height: 450px;
     overflow-y: scroll;
+    width: 100%;
 }
 /* width */
 ::-webkit-scrollbar {
