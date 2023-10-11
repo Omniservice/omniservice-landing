@@ -32,7 +32,11 @@
 .main-container-section {
     padding-left: 100px;
     padding-right: 100px;
-    height: 85vh;
+}
+.main-container {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 251 251 / var(--tw-bg-opacity));
+  height: 100vh;
 }
 .content-inner-section {
     padding: 80px 20px;
@@ -79,7 +83,6 @@
 .footer-wrapper {
   --tw-bg-opacity: 1;
   background-color: rgb(251 251 251 / var(--tw-bg-opacity));
-  height: 15vh;
 }
 /* Auth screens */
 .content-wrapper{
