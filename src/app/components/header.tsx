@@ -1,9 +1,9 @@
 import React from "react";
 import { Navbar, Nav, Image } from "react-bootstrap";
 import { OmniLogo } from "../constants/svg";
-import {
-  ArrowUpLeft
-} from "react-bootstrap-icons";
+// import {
+//   ArrowUpLeft
+// } from "react-bootstrap-icons";
 function App() {
   return (
     <Navbar expand="lg" className="main-nav">
@@ -26,10 +26,10 @@ function App() {
             </Nav.Item> */}
           </Nav>
           <Nav.Link href="/signup" className="sign-up-link sora-regular">
-            <ArrowUpLeft
+            {/* <ArrowUpLeft
               size={20}
-            />
-            <span> Early Sign Up</span>
+            /> */}
+            <span> Sign Up</span>
           </Nav.Link>
         </Navbar.Collapse>
       </div>
