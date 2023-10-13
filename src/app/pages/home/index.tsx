@@ -2,7 +2,8 @@ import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import {Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+
+// import { useNavigate } from "react-router-dom";
 import {
   Robot,
 } from "react-bootstrap-icons";
@@ -12,9 +13,8 @@ interface Chat {
   agentName: string;
 }
 function Home() {
-  const navigate = useNavigate();
   const toSignUp = () => {
-    navigate("/signup");
+    window.location.replace("https://www.app.omniservice.com.ng/signup");
   };
 
   const [chat] = React.useState<Chat[]>([
