@@ -25,12 +25,19 @@ function App() {
               <Nav.Link href="#">Link</Nav.Link>
             </Nav.Item> */}
           </Nav>
-          <Nav.Link href="/signup" className="sign-up-link sora-regular">
+          <Nav.Link href="https://www.app.omniservice.com.ng/login" className="login-link sora-regular">
+            {/* <ArrowUpLeft
+              size={20}
+            /> */}
+            <span> Login </span>
+          </Nav.Link>
+          <Nav.Link href="https://www.app.omniservice.com.ng/signup" className="sign-up-link sora-regular ml-20">
             {/* <ArrowUpLeft
               size={20}
             /> */}
             <span> Sign Up</span>
           </Nav.Link>
+          
         </Navbar.Collapse>
       </div>
     </Navbar>

@@ -8,16 +8,21 @@
     src: local("Sora-Bold"),
       url("../fonts/Sora/Sora-Bold.ttf") format("truetype");
   }
-
+  .login-link {
+    border-bottom: 1px solid #b8a4a4;
+}
   /* Global Classes */
 .sora-regular{
     font-family: Sora;
 }
 .sign-up-link {
   background-color: #2f95dc;
-  padding: 15px;
+  padding: 10px 35px;
   color: white;
   border-radius: 8px;
+}
+.sign-up-link:hover{
+  color: white;
 }
 .main-nav{
     margin-bottom: 20px;
@@ -137,7 +142,9 @@
     height: 100vh;
 }
 
-
+.ml-20{
+  margin-left: 20px;
+}
 
 /*display mobile when the browser window is 991px width or less*/
 @media only screen and (max-width: 1200px){
