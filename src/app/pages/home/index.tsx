@@ -14,7 +14,7 @@ interface Chat {
 }
 function Home() {
   const toSignUp = () => {
-    window.location.replace("https://www.app.omniservice.com.ng/signup");
+    window.location.href = "https://www.app.omniservice.com.ng/signup";
   };
 
   const [chat] = React.useState<Chat[]>([
