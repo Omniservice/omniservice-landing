@@ -43,8 +43,7 @@ function Home() {
             <p className="section-heading">Be reachable always</p>
             <p className="section-heading-p2"> Improve customer satisfaction</p>
             <p className="section-text">
-              Support your customers all around the world 24/7 in any language,
-              on any channel (web chat, social media, or messaging apps )
+              Empower your business with AI agent
             </p>
             <p className="section-text">
               Differentiate your business with GPT omnichannel multilingual
