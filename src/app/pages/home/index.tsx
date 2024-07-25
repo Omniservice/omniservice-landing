@@ -43,10 +43,12 @@ function Home() {
             <p className="section-heading">Be reachable always</p>
             <p className="section-heading-p2"> Improve customer satisfaction</p>
             <p className="section-text">
-              Empower your business with AI agent
+              Differentiate your business with localized, custom, omnichannel, multilingual AI voice agents for handling 
+              sales inquiries and customer service tasks. Streamline operations, enhance customer satisfaction, 
+              and drive business growth—all at a fraction of the cost.
             </p>
             <p className="section-text">
-              Deliver efficient customer service and sales at a fraction of the cost.
+              Let AI work for your business.
             </p>
             <Button
               className="submit-btn p-3 sora-regular btn btn-primary"
