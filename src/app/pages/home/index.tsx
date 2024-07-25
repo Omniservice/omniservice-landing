@@ -46,8 +46,7 @@ function Home() {
               Empower your business with AI agent
             </p>
             <p className="section-text">
-              Differentiate your business with GPT omnichannel multilingual
-              conversational intelligent agent for customer support and sales.
+              Deliver efficient customer service and sales at a fraction of the cost.
             </p>
             <Button
               className="submit-btn p-3 sora-regular btn btn-primary"
