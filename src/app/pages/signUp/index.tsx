@@ -52,24 +52,7 @@ function SignUp() {
   return (
     <div className="col-md-12 content-wrapper h-100vh">
       <div className="row mr-0 align-items-center justify-content-center">
-        <div className="col-md-7 regular-flex h-100vh">
-          
-          <div className="auth-left-content-wrapper">
-
-            <Link to={"/"} >
-              <img
-                src={require("../../assets/images/omni-logo.png")}
-                alt="Omniservice logo"
-                className="auth-logo"
-              />
-            </Link>
-            <p className="sora-regular">
-              Omniservice differentiate businesses with GPT omnichannel
-              multilingual conversational intelligent agent for customer support
-              and sales.
-            </p>
-          </div>
-        </div>
+       
         <div className="col-md-5 regular-flex h-100vh">
           <div
             className="auth-right-content-wrapper scroll-section"
