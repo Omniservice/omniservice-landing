@@ -54,7 +54,7 @@ function Home() {
               className="submit-btn p-3 sora-regular btn btn-primary"
               onClick={toSignUp}
             >
-              Get started today
+              Get started
             </Button>
           </div>
           <div className="inner-content chat-wrapper">
